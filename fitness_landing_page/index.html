@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Website | Landing Page Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <header>
+      <a href="#" class="logo">Fitness</a>
+      <div class="toggleMenu" onclick="toggleMenu();"></div>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Trainers</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="contentBx">
+        <h2>Build Perfect Bodybr</br>
+        With Clean Mind</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <a href="#">Get Started</a>
+      </div>
+    </div>
+    <ul class="sci">
+      <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+      <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+      <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+    </ul>
+  </section>
+  <script type="text/javascript">
+    function toggleMenu() {
+      const toggleMenu = document.querySelector('.toggleMenu')
+      const navigation = document.querySelector('.navigation')
+      toggleMenu.classList.toggle('active')
+      navigation.classList.toggle('active')
+    }
+  </script>
+</body>
+</html>
