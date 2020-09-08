@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* 1vh = 1% of viewport height. */
+  background: url(images/bg.jpg);
+  background-size: cover; /* Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
+  background-position: center;
+  display: flex; /* Displays an element as a block-level flex container. Ref: https://thachpham.com/web-development/html-css/huong-dan-css3-flexbox-toan-tap.html; */
+  justify-content: flex-start; /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally). flex-start: Default value. Items are positioned at the beginning of the container */
+  align-items: center;
+}
