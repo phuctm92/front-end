@@ -69,6 +69,17 @@ header .navigation li a:hover
   color: #03a9f4;
 }
 
+header .navigation #marker {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background: #000;
+  bottom: -8px;
+  transition: 0.5s;
+  border-radius: 4px;
+}
+
 .content
 {
   max-width: 600px;
@@ -177,5 +188,18 @@ header .navigation li a:hover
     background-position: center;
     background-size    : 30px;
     background-repeat  : no-repeat;
+  }
+
+  header .navigation #marker {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    margin-top: -5px;
+    background: #2196f3;
+    border-radius: 2px;
+    transition: 0.5s;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
   }
 }
