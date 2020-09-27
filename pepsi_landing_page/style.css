@@ -32,7 +32,7 @@ header {
 
 header .logo {
   position : relative;
-  min-width: 80px;
+  max-width: 80px;
 }
 
 header ul {
@@ -62,7 +62,7 @@ header ul li a {
 
 .content .textBox {
   position : relative;
-  min-width: 600px;
+  max-width: 600px;
 }
 
 .content .textBox h2 {
